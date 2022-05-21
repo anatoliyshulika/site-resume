@@ -1,0 +1,293 @@
+body {
+    background-color:cadetblue;
+}
+
+.basic_information_on-the_right {
+    padding: 105px 90px;
+    width: 830px;
+}
+
+/* Frame around main conteiner */
+.style_the_frame {
+    background-color: #F5F7FA;
+    width: 1280px;
+    font-family: 'Montserrat', sans-serif;
+    margin: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+/* The layout of the main page container */
+/* Location in style_the_frame */
+.main_container {
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 0 auto;
+    width: 1200px;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling headers */
+.header_projects_work_education {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: #000000;
+    margin-bottom: -5px;
+}
+
+/* -----------------------------------------------------BACKGROUND INFORMATION----------------------------------------------------- */
+/* About usre, introducing, background information about the applicant */
+/* Location in .basic_information_on-the_right */
+.background_information {
+    width: 400px;
+    height: 210px;
+    margin-bottom: 40px;
+}
+
+/* Header Styling Full-Stack Developer */
+/* Location in .background_information */
+.Full_Stack_Developer {
+    font-weight: 700;
+    font-size: 14px;
+}
+
+/* Header Styling name of aplicant */
+/* Location in .background_information */
+.Name_aplicant {
+    font-weight: 700;
+    font-size: 45px;
+    margin-top: 20px;
+}
+
+/* Styling discription full stack */
+/* Location in .background_information */
+.discription_full_stack {
+    width: 400px;
+    height: 120px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #595959;
+    margin-top: 25px;
+}
+/* -----------------------------------------------------BACKGROUND INFORMATION----------------------------------------------------- */
+
+
+/* ------------------------------------------------------------PROJECTS------------------------------------------------------------ */
+/* Projects, completed work */
+/* Location in .background_information */
+.projects {
+    width: 490px;
+    height: 110px;
+    margin-bottom: 50px;
+}
+
+/* Styling list of projects */
+/* Location in .projects */
+.list_of_projects {
+    margin-left: -22px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.styling_text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+
+.project_link {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+    margin-left: 10px;
+}
+/* ------------------------------------------------------------PROJECTS------------------------------------------------------------- */
+
+
+/* ---------------------------------------------------WORK EXPIRIENCE EDUCATION----------------------------------------------------- */
+/* Styling headers */
+.job_position {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.job_place {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FB6D3A;
+    margin-bottom: 10px;
+}
+
+.period_of_work {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #A8A8A8;
+    margin-bottom: -5px;
+}
+
+.divider {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+}
+
+.discription_jobs {
+    padding: 0px;
+    padding-left: 15px;
+    width: 525px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+
+.discription_jobs2 {
+    padding: 0px;
+    padding-left: 15px;
+    width: 525px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+    margin-bottom: 45px;
+}
+/* ---------------------------------------------------WORK EXPIRIENCE EDUCATION----------------------------------------------------- */
+
+/* -----------------------------------------------------------EDUCATION------------------------------------------------------------- */
+.faculty {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+}
+
+.faculty_discription {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FB6D3A;
+    margin-left: 45px;
+}
+
+.qualification_discription {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FB6D3A;
+    margin-left: 5px;
+}
+/* -----------------------------------------------------------EDUCATION------------------------------------------------------------- */
+
+/* -----------------------------------------------------SIDEBAR ON THE LEFT--------------------------------------------------------- */
+/* Sidbar, marking of the left side, with photo and brief data */
+/* Location in .main_container */
+.sidbar_left_side {
+    background-color: #1E2939;
+    width: 372px;
+    padding-top: 40px;
+}
+
+/* Location in .sidbar_left_side */
+img {
+    margin-bottom: 50px;
+}
+
+/* Location in .sidbar_left_side */
+.sidbar_title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+/* Location in .sidbar_left_side */
+.contacts, .tech_skills,
+.soft_skills {
+    margin-left: 40px;
+}
+
+.contacts {
+    margin-bottom: 50px;
+}
+
+.tech_skills {
+    margin-bottom: 45px;
+}
+
+.skills_list {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FB6D3A;
+    padding-left: 12px;
+}
+
+.text_in_skill_list {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+/* Just a stylization of the letters C and E */
+/* Location in .contacts */
+.contact_info_letter {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-right: 5px;
+}
+
+/* Just a stylization of contact links */
+/* Location in .contacts */
+.contact_link {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+    opacity: 0.5;
+}
+
+.mail_link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+    opacity: 0.5;
+}
+/* -----------------------------------------------------SIDEBAR ON THE LEFT--------------------------------------------------------- */
