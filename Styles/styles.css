@@ -43,7 +43,7 @@ body {
 /* Location in .basic_information_on-the_right */
 .background_information {
     width: 400px;
-    height: 510px;
+    /* height: 510px; */
     margin-bottom: 40px;
 }
 
@@ -66,7 +66,7 @@ body {
 /* Location in .background_information */
 .discription_full_stack {
     width: 600px;
-    height: 420px;
+    /* height: 420px; */
     font-weight: 400;
     font-size: 14px;
     color: #595959;
@@ -80,8 +80,8 @@ body {
 /* Location in .background_information */
 .projects {
     width: 490px;
-    height: 110px;
-    margin-bottom: 50px;
+    /* height: 110px; */
+    margin-bottom: 30px;
 }
 
 /* Styling list of projects */
